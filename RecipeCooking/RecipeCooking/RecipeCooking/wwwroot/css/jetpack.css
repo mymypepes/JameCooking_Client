@@ -1,0 +1,54 @@
+/*<link rel='stylesheet' id='jetpack-css' href='https://healey.sculptureqode.com/wp-content/themes/healey/css/jetpack.css?ver=5.4.6' type='text/css' media='all' / >
+*/
+
+/*--------------------------------------------------------------
+# JetPack
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Infinite Scroll
+--------------------------------------------------------------*/
+
+.site-main .infinite-scroll .posts-navigation, /* older / newer posts navigation (always hidden) */
+.site-main .infinite-scroll.neverending .site-footer {
+    display: none;
+}
+
+.site-main .infinity-end.neverending .site-footer {
+    display: block;
+}
+
+.site-main #infinite-handle {
+    clear: both;
+}
+
+    .site-main #infinite-handle span {
+        background: none;
+        padding: 0;
+        font-size: 14px
+    }
+
+        .site-main #infinite-handle span button,
+        .site-main #infinite-handle span button:focus,
+        .site-main #infinite-handle span button:hover {
+            -moz-transition: .2s opacity ease-in-out;
+            -webkit-transition: .2s opacity ease-in-out;
+            display: inline-block;
+            font-style: italic;
+            border-bottom: solid 1px #b97770;
+            color: #344147;
+            transition: .2s opacity ease-in-out;
+        }
+
+.site-main .infinite-loader .spinner {
+    left: 0 !important;
+    margin: 0 auto;
+}
+
+/*--------------------------------------------------------------
+## Tiled Gallery
+--------------------------------------------------------------*/
+
+.entry-content .tiled-gallery {
+    margin-bottom: 30px;
+}
